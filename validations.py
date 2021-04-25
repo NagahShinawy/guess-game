@@ -1,11 +1,10 @@
 """
 created by Nagaj at 25/04/2021
 """
-from constants import INVALID_NUMBER, INVALID_LEVEL
+from constants import INVALID_NUMBER, INVALID_LEVEL, VALID_LEVELS
 
 
 class BasicValidation:
-
     def __init__(self, value):
         self.value = value
 
@@ -20,7 +19,9 @@ class NumberValidation(BasicValidation):
 
     @property
     def validate_value(self):
-        number_error = INVALID_NUMBER.format(number=self.value, start=self.START, end=self.END)
+        number_error = INVALID_NUMBER.format(
+            number=self.value, start=self.START, end=self.END
+        )
         try:
             self.value = int(self.value)
         except ValueError:
@@ -35,11 +36,12 @@ class NumberValidation(BasicValidation):
 
 
 class LevelValidation(BasicValidation):
-    LEVELS = ("easy", "hard")
+    LEVELS = VALID_LEVELS
 
     @property
     def validate_value(self):
         value = self.value.lower()
         if value not in self.LEVELS:
-            raise ValueError(INVALID_LEVEL.format(level=self.value))
+            print(INVALID_LEVEL.format(level=self.value))
+            return False
         return value

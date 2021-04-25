@@ -1,15 +1,16 @@
 """
 created by Nagaj at 25/04/2021
 """
+from constants import EASY_TURNS, HARD_TURNS
 
 
 class DifficultyLevel:
-    pass
+    TURNS = 0
 
 
 class EasyLevel(DifficultyLevel):
-    pass
+    TURNS = EASY_TURNS
 
 
 class HardLevel(DifficultyLevel):
-    pass
+    TURNS = HARD_TURNS
