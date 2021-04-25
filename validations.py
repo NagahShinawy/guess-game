@@ -20,8 +20,17 @@ class NumberValidation(BasicValidation):
 
     @property
     def validate_value(self):
+        number_error = INVALID_NUMBER.format(number=self.value, start=self.START, end=self.END)
+        try:
+            self.value = int(self.value)
+        except ValueError:
+            print(number_error)
+            # raise ValueError(number_error)
+            return False
         if self.value not in range(self.START, self.END + 1):
-            raise ValueError(INVALID_NUMBER.format(number=self.value, start=self.START, end=self.END))
+            print(number_error)
+            # raise ValueError(number_error)
+            return False
         return self.value
 
 
