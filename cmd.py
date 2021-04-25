@@ -22,9 +22,6 @@ class CMDNumber(CMD):
 
     PROMPT = NUMBERS_PROMPT
 
-    def __init__(self):
-        super().__init__()
-
     def set_command(self):
         """
         :return:
@@ -41,9 +38,6 @@ class CMDNumber(CMD):
 
 class CMDLevel(CMD):
     PROMPT = LEVELS_PROMPT
-
-    def __init__(self):
-        super().__init__()
 
     def set_command(self):
         """
