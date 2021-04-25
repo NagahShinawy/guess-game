@@ -15,7 +15,6 @@ from constants import (
 )
 
 
-
 def main():
     level_as_command = CMDLevel()
     number_as_command = CMDNumber()
