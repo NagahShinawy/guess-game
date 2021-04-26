@@ -51,3 +51,6 @@ class CMDLevel(CMD):
     @property
     def level_value(self):
         return self.command
+
+    def __eq__(self, other):
+        return self.command == other

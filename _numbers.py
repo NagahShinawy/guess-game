@@ -28,5 +28,11 @@ class ComputerNumber(BasicNumber):
 
 
 class GuessNumber(BasicNumber):
+    numbers = []
+
     def __init__(self, value):
         super().__init__(NumberValidation(value).validate_value)
+        self.save()
+
+    def save(self):
+        self.numbers.append(self.value)

@@ -1,0 +1,86 @@
+[
+    {
+        "computer_number": 75,
+        "guess_numbers": [
+            50,
+            75
+        ],
+        "turns": 2,
+        "result": "success"
+    },
+    {
+        "computer_number": 6,
+        "guess_numbers": [
+            50,
+            77,
+            88,
+            99,
+            6
+        ],
+        "turns": 5,
+        "result": "success"
+    },
+    {
+        "computer_number": 49,
+        "guess_numbers": [
+            50,
+            22,
+            11,
+            33,
+            11
+        ],
+        "turns": 5,
+        "result": "success"
+    },
+    {
+        "computer_number": 1,
+        "guess_numbers": [
+            50,
+            66,
+            77,
+            88,
+            99
+        ],
+        "turns": 5,
+        "result": "failed"
+    },
+    {
+        "computer_number": 25,
+        "guess_numbers": [
+            50,
+            25
+        ],
+        "turns": 2,
+        "result": "failed"
+    },
+    {
+        "computer_number": 57,
+        "guess_numbers": [
+            50,
+            57
+        ],
+        "turns": 2,
+        "result": "success"
+    },
+    {
+        "computer_number": 60,
+        "guess_numbers": [
+            50,
+            44,
+            44,
+            60
+        ],
+        "turns": 4,
+        "result": "success"
+    },
+    {
+        "computer_number": 17,
+        "guess_numbers": [
+            50,
+            17
+        ],
+        "turns": 2,
+        "result": "success",
+        "datetime": "2021-04-25 15:59:52"
+    }
+]

@@ -1,18 +1,40 @@
 """
 created by Nagaj at 25/04/2021
 """
-from cmd import CMDNumber, CMDLevel
 from _numbers import ComputerNumber, GuessNumber
-from levels import EasyLevel, HardLevel
-from utils import help_msg
+from cmd import CMDNumber, CMDLevel
 from constants import (
     REMAINING_TURNS_MSG,
     EASY,
-    DONE,
+    DONE_MSG,
+    FAILED_MSG,
     MIN_REMAINING_TURNS,
-    REMAINING_EASY,
-    REMAINING_HARD,
 )
+from levels import EasyLevel, HardLevel
+from results import FailedResult, SuccessResult
+from turns import create_turn, save
+from utils import help_msg
+
+
+# todo: append to json obj to json file
+
+
+def check_level(level_as_command):
+    if level_as_command == EASY:
+        level = EasyLevel()
+    else:
+        level = HardLevel()
+    return level
+
+
+def check_result(turns, level):
+    if turns < 0:
+        print(FAILED_MSG)
+        result = FailedResult()
+    else:
+        print(DONE_MSG.format(turns=level - turns))
+        result = SuccessResult()
+    return result.TEXT
 
 
 def main():
@@ -26,15 +48,10 @@ def main():
 
     # ##########################################
 
-    if level_as_command.level_value == EASY:
-        level = EasyLevel()
-        remaining = REMAINING_EASY
-    else:
-        level = HardLevel()
-        remaining = REMAINING_HARD
-
+    level = check_level(level_as_command)
     turns = level.TURNS
-    # print(computernumber)
+    print(computernumber)
+
     # ##########################################
 
     while (guessnumber != computernumber) and (turns > MIN_REMAINING_TURNS):
@@ -44,10 +61,13 @@ def main():
         number_as_command = CMDNumber()
         guessnumber = GuessNumber(number_as_command.number_value)
 
-    if turns >= 0:
-        print(DONE.format(turns=remaining - turns))
+    result = check_result(turns=turns, level=level)
 
     # ##########################################
+    turn_info = create_turn(computer_number=computernumber.value, guess_numbers=guessnumber.numbers,
+                            turns=len(guessnumber.numbers), result=result)
+
+    save(turn_info)
 
 
 if __name__ == "__main__":
