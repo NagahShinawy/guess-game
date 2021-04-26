@@ -28,8 +28,8 @@ def check_level(level_as_command):
 
 
 def check_result(turns, level):
-    if turns < 0:
-        print(FAILED_MSG)
+    if turns < MIN_REMAINING_TURNS:
+        print(FAILED_MSG.format(level.TURNS))
         result = FailedResult()
     else:
         print(DONE_MSG.format(turns=level - turns))
@@ -38,24 +38,26 @@ def check_result(turns, level):
 
 
 def main():
+    computernumber = ComputerNumber()
+    print(computernumber)
     level_as_command = CMDLevel()
     number_as_command = CMDNumber()
 
     # ##########################################
 
     guessnumber = GuessNumber(number_as_command.number_value)
-    computernumber = ComputerNumber()
 
     # ##########################################
 
     level = check_level(level_as_command)
     turns = level.TURNS
-    print(computernumber)
 
     # ##########################################
 
-    while (guessnumber != computernumber) and (turns > MIN_REMAINING_TURNS):
+    while guessnumber != computernumber:
         turns -= 1
+        if turns < MIN_REMAINING_TURNS:
+            break
         help_msg(computernumber=computernumber, guessnumber=guessnumber)
         print(REMAINING_TURNS_MSG.format(turns=turns))
         number_as_command = CMDNumber()
