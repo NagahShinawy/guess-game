@@ -28,11 +28,19 @@ class ComputerNumber(BasicNumber):
 
 
 class GuessNumber(BasicNumber):
-    numbers = []
+    """
+    implement user guess number
+    """
+
+    numbers = []  # all numbers that user try to guess
 
     def __init__(self, value):
         super().__init__(NumberValidation(value).validate_value)
         self.save()
 
-    def save(self):
+    def save(self) -> None:
+        """
+        save single guess number to list of numbers that user is trying with
+        :return:
+        """
         self.numbers.append(self.value)

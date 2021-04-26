@@ -38,11 +38,9 @@ class NumberValidation(BasicValidation):
             self.value = int(self.value)
         except ValueError:
             print(number_error)
-            # raise ValueError(number_error)
             return False
         if self.value not in range(self.START, self.END + 1):
             print(number_error)
-            # raise ValueError(number_error)
             return False
         return self.value
 
