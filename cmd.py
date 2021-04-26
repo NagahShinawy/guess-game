@@ -16,7 +16,14 @@ class CMD:
         self.command = self.set_command()
 
     def set_command(self):
-        return
+        """
+        basic method for set commands
+        :return:
+        """
+        return f"<{self}>"
+
+    def __repr__(self):
+        return self.command
 
 
 class CMDNumber(CMD):
@@ -38,6 +45,10 @@ class CMDNumber(CMD):
 
     @property
     def number_value(self):
+        """
+
+        :return: get number value
+        """
         return self.command
 
 
