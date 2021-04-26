@@ -17,6 +17,11 @@ from utils import help_msg
 
 
 def check_level(level_as_command):
+    """
+    check level if easy or hard
+    :param level_as_command:
+    :return: level
+    """
     if level_as_command == EASY:
         level = EasyLevel()
     else:
@@ -24,7 +29,13 @@ def check_level(level_as_command):
     return level
 
 
-def check_result(turns, level):
+def check_result(turns, level) -> str:
+    """
+    check result 'failed' or 'success'
+    :param turns:  based on tries, we can know the result. turns > 0 means success else failed
+    :param level: level that we are working on (easy, hard).
+    :return: 'success' or 'failed'
+    """
     if turns < MIN_REMAINING_TURNS:
         print(FAILED_MSG.format(level.TURNS))
         result = FailedResult()
