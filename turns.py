@@ -31,4 +31,4 @@ def save(turn: dict):
     turns = load()
     turns.append(turn)
     with open(os.path.join(os.getcwd(), "turns.json"), "w") as turns_file:
-        json.dump(turns, turns_file, indent=4)
+        json.dump(turns[::-1], turns_file, indent=4)
