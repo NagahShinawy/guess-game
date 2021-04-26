@@ -1,7 +1,12 @@
 """
 created by Nagaj at 25/04/2021
 """
-from constants import EASY_TURNS, HARD_TURNS, REMAINING_HARD, REMAINING_EASY, FAILED, SUCCESS
+from constants import (
+    EASY_TURNS,
+    HARD_TURNS,
+    REMAINING_HARD,
+    REMAINING_EASY,
+)
 
 
 class DifficultyLevel:

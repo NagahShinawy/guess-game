@@ -1,5 +1,284 @@
 [
     {
+        "computer_number": 23,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            55
+        ],
+        "turns": 5,
+        "result": "failed",
+        "datetime": "2021-04-26 12:03:09"
+    },
+    {
+        "computer_number": 37,
+        "guess_numbers": [
+            11,
+            37
+        ],
+        "turns": 2,
+        "result": "success",
+        "datetime": "2021-04-26 12:02:42"
+    },
+    {
+        "computer_number": 65,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            65
+        ],
+        "turns": 5,
+        "result": "success",
+        "datetime": "2021-04-26 12:01:04"
+    },
+    {
+        "computer_number": 21,
+        "guess_numbers": [
+            21
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 12:00:46"
+    },
+    {
+        "computer_number": 63,
+        "guess_numbers": [
+            63
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:59:23"
+    },
+    {
+        "computer_number": 55,
+        "guess_numbers": [
+            55
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:57:54"
+    },
+    {
+        "computer_number": 25,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            55
+        ],
+        "turns": 5,
+        "result": "success",
+        "datetime": "2021-04-26 11:56:09"
+    },
+    {
+        "computer_number": 88,
+        "guess_numbers": [
+            88
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:55:38"
+    },
+    {
+        "computer_number": 10,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            10
+        ],
+        "turns": 4,
+        "result": "success",
+        "datetime": "2021-04-26 11:54:48"
+    },
+    {
+        "computer_number": 24,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            55,
+            66,
+            77
+        ],
+        "turns": 7,
+        "result": "failed",
+        "datetime": "2021-04-26 11:54:22"
+    },
+    {
+        "computer_number": 71,
+        "guess_numbers": [
+            71
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:53:26"
+    },
+    {
+        "computer_number": 90,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            90
+        ],
+        "turns": 4,
+        "result": "success",
+        "datetime": "2021-04-26 11:52:13"
+    },
+    {
+        "computer_number": 68,
+        "guess_numbers": [
+            11,
+            68
+        ],
+        "turns": 2,
+        "result": "success",
+        "datetime": "2021-04-26 11:51:46"
+    },
+    {
+        "computer_number": 60,
+        "guess_numbers": [
+            11
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:51:10"
+    },
+    {
+        "computer_number": 19,
+        "guess_numbers": [
+            11,
+            19
+        ],
+        "turns": 2,
+        "result": "success",
+        "datetime": "2021-04-26 11:49:39"
+    },
+    {
+        "computer_number": 22,
+        "guess_numbers": [
+            11,
+            33,
+            44,
+            55,
+            22
+        ],
+        "turns": 5,
+        "result": "success",
+        "datetime": "2021-04-26 11:47:31"
+    },
+    {
+        "computer_number": 18,
+        "guess_numbers": [
+            11,
+            22,
+            18
+        ],
+        "turns": 3,
+        "result": "success",
+        "datetime": "2021-04-26 11:46:45"
+    },
+    {
+        "computer_number": 27,
+        "guess_numbers": [
+            27
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:45:51"
+    },
+    {
+        "computer_number": 20,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            20
+        ],
+        "turns": 4,
+        "result": "success",
+        "datetime": "2021-04-26 11:42:00"
+    },
+    {
+        "computer_number": 34,
+        "guess_numbers": [
+            11,
+            34
+        ],
+        "turns": 2,
+        "result": "success",
+        "datetime": "2021-04-26 11:41:32"
+    },
+    {
+        "computer_number": 23,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            23
+        ],
+        "turns": 5,
+        "result": "success",
+        "datetime": "2021-04-26 11:40:51"
+    },
+    {
+        "computer_number": 85,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            85
+        ],
+        "turns": 5,
+        "result": "failed",
+        "datetime": "2021-04-26 11:39:28"
+    },
+    {
+        "computer_number": 82,
+        "guess_numbers": [
+            50,
+            82
+        ],
+        "turns": 2,
+        "result": "success",
+        "datetime": "2021-04-26 11:38:53"
+    },
+    {
+        "computer_number": 1,
+        "guess_numbers": [
+            66,
+            22,
+            33,
+            44,
+            55
+        ],
+        "turns": 5,
+        "result": "failed",
+        "datetime": "2021-04-26 11:37:44"
+    },
+    {
+        "computer_number": 88,
+        "guess_numbers": [
+            55,
+            11,
+            11,
+            22,
+            44
+        ],
+        "turns": 5,
+        "result": "success",
+        "datetime": "2021-04-26 11:34:05"
+    },
+    {
         "computer_number": 75,
         "guess_numbers": [
             50,
@@ -82,5 +361,314 @@
         "turns": 2,
         "result": "success",
         "datetime": "2021-04-25 15:59:52"
+    },
+    {
+        "computer_number": 32,
+        "guess_numbers": [
+            50,
+            22,
+            32
+        ],
+        "turns": 3,
+        "result": "success",
+        "datetime": "2021-04-26 11:29:35"
+    },
+    {
+        "computer_number": 98,
+        "guess_numbers": [
+            98
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:30:55"
+    },
+    {
+        "computer_number": 75,
+        "guess_numbers": [
+            1,
+            3,
+            6,
+            75
+        ],
+        "turns": 4,
+        "result": "success",
+        "datetime": "2021-04-26 11:31:43"
+    },
+    {
+        "computer_number": 36,
+        "guess_numbers": [
+            55,
+            66,
+            36
+        ],
+        "turns": 3,
+        "result": "success",
+        "datetime": "2021-04-26 11:33:05"
+    },
+    {
+        "computer_number": 46,
+        "guess_numbers": [
+            44,
+            11,
+            22,
+            33,
+            55
+        ],
+        "turns": 5,
+        "result": "failed",
+        "datetime": "2021-04-26 11:37:02"
+    },
+    {
+        "computer_number": 23,
+        "guess_numbers": [
+            44,
+            11,
+            22,
+            33,
+            44
+        ],
+        "turns": 5,
+        "result": "failed",
+        "datetime": "2021-04-26 11:38:29"
+    },
+    {
+        "computer_number": 70,
+        "guess_numbers": [
+            70
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:39:12"
+    },
+    {
+        "computer_number": 38,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            38
+        ],
+        "turns": 5,
+        "result": "failed",
+        "datetime": "2021-04-26 11:40:03"
+    },
+    {
+        "computer_number": 48,
+        "guess_numbers": [
+            48
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:41:10"
+    },
+    {
+        "computer_number": 33,
+        "guess_numbers": [
+            11,
+            22,
+            33
+        ],
+        "turns": 3,
+        "result": "success",
+        "datetime": "2021-04-26 11:41:44"
+    },
+    {
+        "computer_number": 97,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            55
+        ],
+        "turns": 5,
+        "result": "success",
+        "datetime": "2021-04-26 11:42:11"
+    },
+    {
+        "computer_number": 82,
+        "guess_numbers": [
+            11,
+            82
+        ],
+        "turns": 2,
+        "result": "success",
+        "datetime": "2021-04-26 11:46:32"
+    },
+    {
+        "computer_number": 60,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            60
+        ],
+        "turns": 4,
+        "result": "success",
+        "datetime": "2021-04-26 11:47:06"
+    },
+    {
+        "computer_number": 93,
+        "guess_numbers": [
+            93
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:49:30"
+    },
+    {
+        "computer_number": 22,
+        "guess_numbers": [
+            22
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:51:01"
+    },
+    {
+        "computer_number": 39,
+        "guess_numbers": [
+            39
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:51:37"
+    },
+    {
+        "computer_number": 50,
+        "guess_numbers": [
+            11,
+            22,
+            50
+        ],
+        "turns": 3,
+        "result": "success",
+        "datetime": "2021-04-26 11:52:00"
+    },
+    {
+        "computer_number": 17,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            17
+        ],
+        "turns": 5,
+        "result": "success",
+        "datetime": "2021-04-26 11:52:36"
+    },
+    {
+        "computer_number": 69,
+        "guess_numbers": [
+            11,
+            69
+        ],
+        "turns": 2,
+        "result": "success",
+        "datetime": "2021-04-26 11:53:35"
+    },
+    {
+        "computer_number": 37,
+        "guess_numbers": [
+            37
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 11:54:35"
+    },
+    {
+        "computer_number": 1,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            55,
+            66
+        ],
+        "turns": 6,
+        "result": "failed",
+        "datetime": "2021-04-26 11:55:06"
+    },
+    {
+        "computer_number": 7,
+        "guess_numbers": [
+            11,
+            7
+        ],
+        "turns": 2,
+        "result": "success",
+        "datetime": "2021-04-26 11:55:47"
+    },
+    {
+        "computer_number": 18,
+        "guess_numbers": [
+            11,
+            22,
+            18
+        ],
+        "turns": 3,
+        "result": "success",
+        "datetime": "2021-04-26 11:57:44"
+    },
+    {
+        "computer_number": 25,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            55
+        ],
+        "turns": 5,
+        "result": "failed",
+        "datetime": "2021-04-26 11:58:11"
+    },
+    {
+        "computer_number": 14,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            14
+        ],
+        "turns": 5,
+        "result": "failed",
+        "datetime": "2021-04-26 11:59:33"
+    },
+    {
+        "computer_number": 21,
+        "guess_numbers": [
+            11,
+            21
+        ],
+        "turns": 2,
+        "result": "success",
+        "datetime": "2021-04-26 12:00:53"
+    },
+    {
+        "computer_number": 4,
+        "guess_numbers": [
+            4
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 12:02:26"
+    },
+    {
+        "computer_number": 69,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            69
+        ],
+        "turns": 5,
+        "result": "success",
+        "datetime": "2021-04-26 12:02:57"
     }
 ]

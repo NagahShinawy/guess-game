@@ -16,9 +16,6 @@ from turns import create_turn, save
 from utils import help_msg
 
 
-# todo: append to json obj to json file
-
-
 def check_level(level_as_command):
     if level_as_command == EASY:
         level = EasyLevel()
@@ -66,8 +63,12 @@ def main():
     result = check_result(turns=turns, level=level)
 
     # ##########################################
-    turn_info = create_turn(computer_number=computernumber.value, guess_numbers=guessnumber.numbers,
-                            turns=len(guessnumber.numbers), result=result)
+    turn_info = create_turn(
+        computer_number=computernumber.value,
+        guess_numbers=guessnumber.numbers,
+        turns=len(guessnumber.numbers),
+        result=result,
+    )
 
     save(turn_info)
 
