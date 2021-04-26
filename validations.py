@@ -14,6 +14,10 @@ class BasicValidation:
 
     @property
     def validate_value(self):
+        """
+        basic validation for number, level, ....
+        :return: validated number
+        """
         return self.value
 
 

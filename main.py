@@ -1,8 +1,8 @@
 """
 created by Nagaj at 25/04/2021
 """
-from _numbers import ComputerNumber, GuessNumber
 from cmd import CMDNumber, CMDLevel
+from _numbers import ComputerNumber, GuessNumber
 from constants import (
     REMAINING_TURNS_MSG,
     EASY,
@@ -46,6 +46,10 @@ def check_result(turns, level) -> str:
 
 
 def main():
+    """
+    entry point for program
+    :return:
+    """
     computernumber = ComputerNumber()
     print(computernumber)
     level_as_command = CMDLevel()

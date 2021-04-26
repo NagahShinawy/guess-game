@@ -16,7 +16,7 @@ class CMD:
         self.command = self.set_command()
 
     def set_command(self):
-        pass
+        return
 
 
 class CMDNumber(CMD):

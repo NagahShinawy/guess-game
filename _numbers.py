@@ -6,6 +6,9 @@ from validations import NumberValidation
 
 
 class BasicNumber:
+    """
+    basic number implementation
+    """
     def __init__(self, value):
         self.value = value
 
@@ -20,6 +23,9 @@ class BasicNumber:
 
 
 class ComputerNumber(BasicNumber):
+    """
+    implement computer random number from 1 to 100
+    """
     START = 1
     END = 100
 
