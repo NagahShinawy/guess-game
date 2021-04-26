@@ -1,5 +1,28 @@
 [
     {
+        "computer_number": 27,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            55
+        ],
+        "turns": 5,
+        "result": "failed",
+        "datetime": "2021-04-26 13:58:43"
+    },
+    {
+        "computer_number": 72,
+        "guess_numbers": [
+            22,
+            72
+        ],
+        "turns": 2,
+        "result": "success",
+        "datetime": "2021-04-26 13:58:00"
+    },
+    {
         "computer_number": 23,
         "guess_numbers": [
             11,
@@ -670,5 +693,27 @@
         "turns": 5,
         "result": "success",
         "datetime": "2021-04-26 12:02:57"
+    },
+    {
+        "computer_number": 25,
+        "guess_numbers": [
+            25
+        ],
+        "turns": 1,
+        "result": "success",
+        "datetime": "2021-04-26 13:57:49"
+    },
+    {
+        "computer_number": 16,
+        "guess_numbers": [
+            11,
+            22,
+            33,
+            44,
+            16
+        ],
+        "turns": 5,
+        "result": "success",
+        "datetime": "2021-04-26 13:58:34"
     }
 ]

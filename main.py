@@ -57,7 +57,7 @@ def main():
 
     # ##########################################
 
-    guessnumber = GuessNumber(number_as_command.number_value)
+    guessnumber = GuessNumber(number_as_command.get_value)
 
     # ##########################################
 
@@ -73,7 +73,7 @@ def main():
         help_msg(computernumber=computernumber, guessnumber=guessnumber)
         print(REMAINING_TURNS_MSG.format(turns=turns))
         number_as_command = CMDNumber()
-        guessnumber = GuessNumber(number_as_command.number_value)
+        guessnumber = GuessNumber(number_as_command.get_value)
 
     result = check_result(turns=turns, level=level)
 

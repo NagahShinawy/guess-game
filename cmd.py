@@ -25,6 +25,24 @@ class CMD:
     def __repr__(self):
         return self.command
 
+    def __eq__(self, other):
+        """
+        compare value entered by user with excepted value
+        in case of number should be in range 1 to 100.
+        in case of level should be on of 'easy' or 'hard'
+        :param other: validated value entered by the user
+        :return: True if validated value (1 to 100) or (easy or hard)
+        """
+        return self.command == other
+
+    @property
+    def get_value(self):
+        """
+
+        :return: get value entered by the user
+        """
+        return self.command
+
 
 class CMDNumber(CMD):
     """
@@ -43,14 +61,6 @@ class CMDNumber(CMD):
             number_as_command = input(self.PROMPT)
         return number_as_command
 
-    @property
-    def number_value(self):
-        """
-
-        :return: get number value
-        """
-        return self.command
-
 
 class CMDLevel(CMD):
     """
@@ -68,19 +78,3 @@ class CMDLevel(CMD):
         while not LevelValidation(level_as_command).validate_value:
             level_as_command = input(self.PROMPT)
         return level_as_command
-
-    @property
-    def level_value(self):
-        """
-
-        :return: level command value 'easy' or 'hard'
-        """
-        return self.command
-
-    def __eq__(self, other):
-        """
-
-        :param other: one of 'easy' or 'hard'
-        :return: True if command = easy else False
-        """
-        return self.command == other
