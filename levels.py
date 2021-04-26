@@ -16,7 +16,6 @@ class DifficultyLevel:
 
     TURNS = 0
     REMAINING = 0
-    RESULT = ""
 
     def __repr__(self):
         return f"{self.TURNS}"
