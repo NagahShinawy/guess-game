@@ -10,7 +10,7 @@ class CMD:
     Basic CMD to handle  CLI
     """
 
-    PROMPT = None
+    PROMPT = ""
 
     def __init__(self):
         self.command = self.set_command()
